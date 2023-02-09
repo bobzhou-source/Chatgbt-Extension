@@ -1,0 +1,45 @@
+#csBg {
+    width: max-content;
+    height: max-content;
+    background-color: white;
+    color: black;
+    overflow: hidden;
+    display: grid;
+    place-items: center;
+    position: fixed;
+    left: 1%;
+    bottom: 1%;
+    z-index: 10000;
+    display: none;
+    border-radius: 5px;
+   border: 1px solid black;
+}
+
+#cspopup {
+    display: flex;
+    flex-direction: column;
+    width: max-content;
+    max-width: 30rem;
+    background-color: white;
+    padding: 0 5px;
+    border-radius: 5px;
+    color: black;
+    font-size: 1rem !important;
+}
+
+#cstextarea {
+    padding: 0 5px;
+    outline: none;
+    border-radius: 3px;
+}
+
+.cscbutton {
+    margin: 0.1rem;
+    float: right;
+    border: 1px solid black;
+    border-radius: 3px;
+    font-size: 1rem;
+    cursor: pointer;
+    background-color: white;
+    color: black;
+}
